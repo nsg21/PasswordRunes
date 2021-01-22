@@ -14,7 +14,8 @@ The runes are square tiles with 3x3 pattern of black and white dots on each face
 The patterns for each set are chosen in such a way that each face in any of the 4 orientations is distinguishable from any other face in any orientation.
 
 ### PasswordRunes60
-All possible 3x3 
+All possible 3x3 2 color patterns that remain different under all 4 rotations.
+(More details)[60/README.md]
 
 ### PasswordRunes36
 ### PasswordRunes18
