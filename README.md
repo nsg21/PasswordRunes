@@ -15,7 +15,8 @@ The patterns for each set are chosen in such a way that each face in any of the 
 
 ### PasswordRunes60
 All possible 3x3 2 color patterns that remain different under all 4 rotations.
-(More details)[60/README.md]
+
+[More details](60/README.md)
 
 ### PasswordRunes36
 ### PasswordRunes18
