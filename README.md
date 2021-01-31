@@ -1,6 +1,6 @@
 # PasswordRunes
 Set of runes (tiles) to assist in generation and management of high entropy secret passwords
-
+The runes are square tiles with 3x3 pattern of black and white dots on each face.
 
 ## Prior Art
 - DiceWare https://diceware.dmuth.org/ -- system of generating english passphrases by rolling dice
@@ -14,8 +14,9 @@ The runes are square tiles with rounded corners. The square side is 5/8" and the
 
 The dots of 3×3 pattern have centers with coordinates x,y ∈ {0,±1/6"}, where (0,0) is the center of a tile. They can be circle, square, diamond, or any other shape with D4 symmetry. The shapes should be small enough so that neighbours do not overlap. For drilling or punching, the circle is probably the easiest to implement, so I expect it to be the default shape.
 
+Thickness depends on the available material. Plywood and acryliuc often comes in 1/8" and to me it feels about right. I think 1/4" would be too thick and 1/16" too thin. For 5/8" tile.
+
 ## Rune sets
-The runes are square tiles with 3x3 pattern of black and white dots on each face.
 The patterns for each set are chosen in such a way that each face in any of the 4 orientations is distinguishable from any other face in any orientation.
 
 ### PasswordRunes60
