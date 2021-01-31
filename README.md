@@ -3,10 +3,11 @@ Set of runes (tiles) to assist in generation and management of high entropy secr
 
 
 ## Prior Art
-- DiceWare https://diceware.dmuth.org/
-- DiceKeys https://dicekeys.com/
+- DiceWare https://diceware.dmuth.org/ -- system of generating english passphrases by rolling dice
+- DiceKeys https://dicekeys.com/ -- system of generating and storing passphrases by rolling dice
+- [ElsieFour] (https://eprint.iacr.org/2017/339.pdf)  -- human executable encryption algorythm that uses 36 tiles as an encryption device and a random permutation of 36 tiles as a key
 
-The main inspiration 
+The main inspiration is DiceKeys project. I wanted something that is easier to make and easier to store and copy by hand.
 
 ## Rune sets
 
@@ -37,17 +38,17 @@ I considered other underlying patterns of dots and more than 2 colors.
 Summary of these considerations are presented in the following table:
 
 colors:|2|3|4|5
-------|-|-|-|-
-dots|-|-|-|-
-------|-|-|-|-
+dots| | | | 
 4     |   3|    18|       60|      150
 5     |   6|    54|      240|      750
 8     |  60|  1620|    16320|    97500
 9     | 120|  4860|    65280|   487500
-12    |1008|132678|4.19328e6|6.10313e7
-13    |2016|398034|1.67731e7|3.05156e8
+12    |1008|132678|4.19e6|6.10e7
+13    |2016|398034|1.67e7|3.05e8
 
 It looks like, the most obvious choice of 2 colors and 3x3 pattern of dots provides opportunity for the adequate amount of entropy in generated passwords, while being at the same time not too large, and, overall aesthetically pleasing.
+
+Intersting note: there are 150 of 2×2 5 color patterns which lack any c5 symmetry. This is exactly enough to cover faces of 25 dice cubes. This is equivalent to dicekeys.
 
 ## Software
 The primary intended purpose of PasswordRunes is to assist in generating a passphrase *without* a computer.
