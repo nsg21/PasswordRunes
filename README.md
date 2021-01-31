@@ -14,17 +14,17 @@ The runes are square tiles with 3x3 pattern of black and white dots on each face
 The patterns for each set are chosen in such a way that each face in any of the 4 orientations is distinguishable from any other face in any orientation.
 
 ### PasswordRunes60
-All possible 3x3 2 color patterns that remain different under all 4 rotations. There are 120 such patterns. Since each rune has 2 sides, this allows for a set of 60 runes. 60 distinct runes arranged in random order, each in one of 8 possible positions gives 452 bits of entropy.
+All possible 3x3 2 color patterns that remain different under all 4 rotations. There are 120 such patterns. Since each rune has 2 sides, this allows for a set of 60 runes. 60 distinct runes arranged in random order, each in one of 8 possible positions gives log2(60! \* 2^60 \* 4^60) ~= 452 bits of entropy.
 
 [More details](60/README.md)
 
 ### PasswordRunes36
-Set of 36 runes allows passords with up to 246 bits of entropy.
+Set of 36 runes allows passwords with up to log2(60!/(60-36)! \* 2^36 \* 4^36) ~= 301 bits of entropy. This is also suitable for 256-bit symmetric keys.
 
 [More details](36/README.md)
 
 ### PasswordRunes18
-Set of 36 runes allows passords with up to 246 bits of entropy.
+Set of 18 runes allows passwords with up to log2(60!/(60-18)! \* 2^18 \* 4^18) ~= 156 bits of entropy. This is also suitable for 128-bit symmetric keys.
 
 [More details](18/README.md)
 
@@ -41,7 +41,7 @@ The primary intended purpose of PasswordRunes is to assist in generating a passp
 However, having a utility that is capable of scanning the image of rectangular arrangement of runes and converting it into a usable password seems like a good idea.
 The pattern structure of the runes is simple and regular. It may be possible to create a 
 
-DiceKeys has such scanning component (in a form of javascript library)
+DiceKeys has such scanning component (in a form of JavaScript library)
 
 ## Other projects
 
