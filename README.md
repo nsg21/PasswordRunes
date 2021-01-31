@@ -42,9 +42,8 @@ I considered other underlying patterns of dots and more than 2 colors.
 
 Summary of these considerations are presented in the following table. It shows the number of eligible patterns for a configurations of a given number of dots and given number of colors. The underlying (uncolored) pattern of dots must be symmetric under rotation, so it can only be 4n or 4n+1 dots.
 
-colors:|2|3|4|5
-dots| | | | 
-------|
+dots/colors|2|3|4|5
+----|----|----|----|---- 
 4     |   3|    18|       60|      150
 5     |   6|    54|      240|      750
 8     |  60|  1620|    16320|    97500
