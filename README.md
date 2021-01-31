@@ -60,7 +60,7 @@ The primary intended purpose of PasswordRunes is to assist in generating a passp
 However, having a utility that is capable of scanning the image of rectangular arrangement of runes and converting it into a usable password seems like a good idea.
 The pattern structure of the runes is simple and regular. It may be possible to create an implementation of a simple scanner that can be complrehended and trusted by an average crypto-nerd.
 
-DiceKeys has such scanning component (in a form of javascript library). I cannot comment yet on its readability.
+DiceKeys has such scanning component (in a form of Javascript library). I cannot comment yet on its readability.
 
 ## Other projects
 
