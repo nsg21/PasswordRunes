@@ -20,20 +20,20 @@ Thickness depends on the available material. Plywood and acryliuc often comes in
 The patterns for each set are chosen in such a way that each face in any of the 4 orientations is distinguishable from any other face in any orientation.
 
 ### PasswordRunes60
-All possible 3x3 2 color patterns that remain different under all 4 rotations. There are 120 such patterns. Since each rune has 2 sides, this allows for a set of 60 runes. 60 distinct runes arranged in random order, each in one of 8 possible positions gives 452 bits of entropy.
+All possible 3x3 2 color patterns that remain different under all 4 rotations. There are 120 such patterns. Since each rune has 2 sides, this allows for a set of 60 runes. 60 distinct runes arranged in random order, each in one of 8 possible positions gives log2(60! \* 2^60 \* 4^60) ~= 452 bits of entropy.
 
 [More details](60/README.md)
 
 ### PasswordRunes36 (Chaos Runes)
 It is possible to select 72 out of 120 pattenrs of PasswordRunes60 and combine them into 36 tiles which are easier to manufacture on laser cutter or 3d-printer.
-This set of 36 runes allows passords with up to 246 bits of entropy.
+This set of 36 runes allows passords with up to log2(36!)+36*3=246 bits of entropy.
 
 [More details](36/README.md)
 
 ### PasswordRunes18
-PasseordRunes36 come in pairs: with and without a dot in the center, all other dots being identical. Therefore it is possible to separate the set into 2 visually homomorphic subsets. Alternatively, the dot pattern for the subset without a central dot may be rearranged by moving side dots closer towards the center. This gives patterns that are less obviously "rectangular", which may be beneficial for some applications.
+PasswordRunes36 come in pairs: with and without a dot in the center, all other dots being identical. Therefore it is possible to separate the set into 2 visually homomorphic subsets. Alternatively, the dot pattern for the subset without a central dot may be rearranged by moving side dots closer towards the center. This gives patterns that are less obviously "rectangular", which may be beneficial for some applications.
 
-The set of 18 runes allows passords with up to 106 bits of entropy. This is probably not enough for long term keys, but may still be acceptable in some situations.
+The set of 18 runes allows passords with up to log2(18!)+18*3=106 bits of entropy. This is probably not enough for long term keys, but may still be acceptable in some situations.
 
 [More details](18/README.md)
 
