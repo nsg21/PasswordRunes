@@ -9,5 +9,5 @@ This pairing ensures that each rune has exactly same amount of each color.
 
 ## SVG pattern
 
-In the following drawing rune faces are paird with their canonical partner
+In the following drawing rune faces are paired with their canonical partner
 [PasswordTiles60.svg](PasswordTiles60.svg)
