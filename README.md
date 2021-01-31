@@ -5,7 +5,7 @@ Set of runes (tiles) to assist in generation and management of high entropy secr
 ## Prior Art
 - DiceWare https://diceware.dmuth.org/ -- system of generating english passphrases by rolling dice
 - DiceKeys https://dicekeys.com/ -- system of generating and storing passphrases by rolling dice
-- [ElsieFour](https://eprint.iacr.org/2017/339.pdf)  -- human executable encryption algorythm that uses 36 tiles as an encryption device and a random permutation of 36 tiles as a key
+- [ElsieFour](https://eprint.iacr.org/2017/339.pdf)  -- human executable encryption algorithm that uses 36 tiles as an encryption device and a random permutation of 36 tiles as a key
 
 The main inspiration is DiceKeys project. I wanted something that is easier to make and easier to store and copy by hand.
 
