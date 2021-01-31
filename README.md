@@ -44,6 +44,7 @@ Summary of these considerations are presented in the following table. It shows t
 
 colors:|2|3|4|5
 dots| | | | 
+------|
 4     |   3|    18|       60|      150
 5     |   6|    54|      240|      750
 8     |  60|  1620|    16320|    97500
