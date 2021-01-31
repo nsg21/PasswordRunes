@@ -42,3 +42,7 @@ However, having a utility that is capable of scanning the image of rectangular a
 The pattern structure of the runes is simple and regular. It may be possible to create a 
 
 DiceKeys has such scanning component (in a form of javascript library)
+
+## Other projects
+
+* https://gist.github.com/atoponce/86308d5cc0500dd1db7914000afdf885 -- implements a roll of 36 out of 120 tiles.
