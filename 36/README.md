@@ -44,7 +44,7 @@ Except for the last row, the formula is bits=3·size+log2(size!). The full set o
 ### Skewered runes
 The last row in the entropy tables represents a unique opportunity which is specific to this tileset.
 
-It turns out that each tile in the tileset has at least one dot on its side. If dots are implemented as through holes, then it is possible to pass astring or a skewer through the side hole of every tile in the configuration. By convention, the skewered/stringed hole is "on top". This enables a flexible way to store and, possibly, read the configuration. It is importatnt to somehow mark the first rune in the chain, therwise there are 36×2 ways to read a pssorwod from a "necklace".
+It turns out that each tile in the tileset has at least one dot on its side. If dots are implemented as through holes, then it is possible to pass a string or a skewer through the side hole of every tile in the configuration. By convention, the skewered/stringed hole is "on top". This enables a flexible way to store and, possibly, read the configuration. It is importatnt to somehow mark the first rune in the chain, therwise there are 36×2 ways to read a passrwod from a "necklace".
 
-Naturally, the necessity to have each rune in orientation that has a dot on top, limits the possibilities. Since there are 12 runes with 1 side hole, 12 with 2 and 12 with 3, then for each given permutation, number of ways to rotate the individual runes is 1^12·2^12·3^12·2^36 for a total entropy 2·36+12·log2(6)+log2(36!)=205. This is also roughly equivalent to 5×5 DiceKeys.
+Naturally, the necessity to have each rune in orientation that has a dot on top, limits the possibilities. Since there are 12 runes with 1 side hole, 12 with 2 and 12 with 3, then for each given permutation, number of ways to rotate the individual runes is 1^12·2^12·3^12·2^36 for a total entropy 2·36+12·log2(6)+log2(36!)=205 bits. This is also roughly equivalent to 5×5 DiceKeys.
 
