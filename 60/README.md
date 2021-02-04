@@ -1,4 +1,5 @@
 # 60-rune set
+![](PasswordRunes60.jpg)
 
 There are 120 total available patterns, 2 per rune give 60 runes.
 There are multiple ways to group 120 patterns in 60 pairs. Additionally, one element of each given pair can be rotated 4 different ways relative to the other element. This allows to "fingerprint" a set, by creating a pair matching unique for this set. This may be undesirable.
